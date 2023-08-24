@@ -3,7 +3,7 @@
 Voor veel festivals hebben we veel werknemers nodig die op verschillende locaties werken.
 Hiervoor heb ik een Festival-API gemaakt die het makkelijk maakt om users te koppelen aan festival en locaties aan festivals.
 
-#Authenticatie
+#Authenticatie GET & POST users
 
 Als eerste maken we een gebruiker aan met de POST user. Hier kunnen we de gegevens van de werknemer toevoegen die nodig zijn om het te koppelen aan een festival.
 
