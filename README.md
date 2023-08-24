@@ -6,6 +6,9 @@ Hiervoor heb ik een Festival-API gemaakt die het makkelijk maakt om users te kop
 #Authenticatie GET & POST users
 
 Als eerste maken we een gebruiker aan met de POST user. Hier kunnen we de gegevens van de werknemer toevoegen die nodig zijn om het te koppelen aan een festival.
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/f617ba77-3f51-4397-9c3a-4fae57ad8e3c)
+We geven deze 3 parameters: email, passwoord en is_active
+
 
 Als we een werknemer terug willen vinden gebruiken we de GET user. Hieronder bevindt zich de GET van de users die aangemaakt zijn voor de authenticatie.
 ![image](https://github.com/bervoetshannes/API-python/assets/47882529/aef80b93-e170-4717-9485-9080f7e9b322)
