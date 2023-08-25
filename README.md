@@ -22,6 +22,12 @@ Daarom is het belangrijk om eerst de locaties aan te maken voordat een festival 
 Bij een Locatie geven we 3 parameters terug: naam, lat en lon. 
 De naam voor te weten hoe de locatie heet en de lat en lon voor de coördinatie van de locatie.
 
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/ec78f804-7547-48a5-97d5-10a9cb9ce9ed)
+
+# GET Locatie
+
+Hier vragen we de locaties van de
+
 # POST Festival
 Bij het aanmaken van een festival hebben we 2 parameters: de naam van het festival en de locatie_id
 We hebben hier alleen maar de id van de locatie nodig voor het terugkoppelen naar de andere gegevens
@@ -34,5 +40,7 @@ Soms willen we aanpassingen maken in de naam van een fetsival, hiervoor wordt ee
 
 # DELETE User
 Als er een werknemer niet meer werkt op festivals gaan we deze Delete.
+Dit doen we aan de hand van de user id
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/f51ba141-6435-4498-b9ea-2db36fd6e28a)
 
 
