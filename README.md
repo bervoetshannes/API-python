@@ -1,4 +1,4 @@
-# Festivallen
+# Festival-API
 
 Voor veel festivals hebben we veel werknemers nodig die op verschillende locaties werken.
 Hiervoor heb ik een Festival-API gemaakt die het makkelijk maakt om users te koppelen aan festival en locaties aan festivals.
