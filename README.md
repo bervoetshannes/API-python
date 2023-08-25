@@ -58,6 +58,22 @@ Als er een werknemer niet meer werkt op festivals gaan we deze Delete.
 Dit doen we aan de hand van de user id
 ![image](https://github.com/bervoetshannes/API-python/assets/47882529/f51ba141-6435-4498-b9ea-2db36fd6e28a)
 
+# Users linken aan Festivals
+
+Voor het einddoel van deze API gaan we de werkenemers linken aan een festival.
+Dit doen we met een extra POST functie.
+We gebruiken de user_id en festival_id om deze samen in d-een schema te zetten.
+
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/72a7ab7e-b60d-4794-931c-947d7c55cd6a)
+
+Als de POST goed gelukt is krijgen we een extra text met de user email en het gekoppelde festival.
+
+
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/8017a59c-72cb-4ff2-86dd-8f3658aadf7e)
+
+Hierboven zien we een extra gemaakte schema om de 2 ids te koppelen met elkaar.
+
+
 # FASTAPI Docs
 
 ![image](https://github.com/bervoetshannes/API-python/assets/47882529/27d06dc9-f1c9-429b-bbc3-3f4a97e3d5d2)
