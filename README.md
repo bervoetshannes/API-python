@@ -73,11 +73,15 @@ Hier ziet u mijn opgebouwde Dockerfile hoe deze wordt opgebouwd
 
 ## docker-compose
 Met docker-compose builden we onze image vanzelf vanuit Docker.
+
 ![image](https://github.com/bervoetshannes/API-python/assets/47882529/446653b1-a883-44b7-beab-cc6748e67e55)
+
 Hier zien we dat we de image r0695672/api-festival uit docker halen en deze hierna te builden.
 
 ## Okteto
-eens de repository gelinkt is met github langs docker-compose kunnen we deze verbinden met een okteto cloud account
+eens de repository gelinkt is met github langs docker-compose kunnen we deze verbinden met een okteto cloud account.
+
 ![image](https://github.com/bervoetshannes/API-python/assets/47882529/cee3cf69-6a1d-46bb-a7d5-09bf2150d963)
+
 
 Hierboven ziet u mijn backend op okteto staan en kunnen we langs de cloud request maken.
