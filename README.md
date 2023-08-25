@@ -27,6 +27,10 @@ Bij het aanmaken van een festival hebben we 2 parameters: de naam van het festiv
 We hebben hier alleen maar de id van de locatie nodig voor het terugkoppelen naar de andere gegevens
 Hiervoor hebben we 2 classes voor festival, één voor de POST en één voor de GET.
 
+# PUT Festival
+Soms willen we aanpassingen maken in de naam van een fetsival, hiervoor wordt een PUT gebruikt.
+
+
 
 # DELETE User
 Als er een werknemer niet meer werkt op festivals gaan we deze Delete.
