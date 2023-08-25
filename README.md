@@ -27,7 +27,8 @@ De naam voor te weten hoe de locatie heet en de lat en lon voor de coördinatie 
 # GET Locatie
 
 Hier vragen we de locaties voor de festivals
-![Uploading image.png…]()
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/34bc1a19-9f59-46a7-8894-6aabdc5cb390)
+
 
 
 # POST Festival
