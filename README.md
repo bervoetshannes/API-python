@@ -2,6 +2,8 @@
 
 Voor veel festivals hebben we veel werknemers nodig die op verschillende locaties werken.
 Hiervoor heb ik een Festival-API gemaakt die het makkelijk maakt om users te koppelen aan festival en locaties aan festivals.
+We kunnen Festivals, Locaties en Users aanmaken en deze terug ophalen.
+
 
 # Authenticatie GET & POST users
 
@@ -30,15 +32,25 @@ Hier vragen we de locaties voor de festivals
 ![image](https://github.com/bervoetshannes/API-python/assets/47882529/34bc1a19-9f59-46a7-8894-6aabdc5cb390)
 
 
-
 # POST Festival
-Bij het aanmaken van een festival hebben we 2 parameters: de naam van het festival en de locatie_id
+Bij het aanmaken van een festival hebben we  parameters: de naam van het festival, de locatie_id, begin datum en einddatum
 We hebben hier alleen maar de id van de locatie nodig voor het terugkoppelen naar de andere gegevens
-Hiervoor hebben we 2 classes voor festival, één voor de POST en één voor de GET.
+Hiervoor hebben we 2 classes voor festival, één voor de POST (CreateFestival) en één voor de GET (ListFestival).
+
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/bca88aad-380a-4d99-9a09-43dcef0a04e1)
+
+# Get Festival
+
+Eens we een festival hebben gemaakt willen we deze terug kunnen opvragen met de GET functie.
+
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/85c924a1-091f-4f30-9612-a80d0fb3e3e7)
+
+
 
 # PUT Festival
 Soms willen we aanpassingen maken in de naam van een fetsival, hiervoor wordt een PUT gebruikt.
 
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/6c073c90-d440-46e5-b593-2793709ad1c4)
 
 
 # DELETE User
@@ -46,4 +58,26 @@ Als er een werknemer niet meer werkt op festivals gaan we deze Delete.
 Dit doen we aan de hand van de user id
 ![image](https://github.com/bervoetshannes/API-python/assets/47882529/f51ba141-6435-4498-b9ea-2db36fd6e28a)
 
+# FASTAPI Docs
 
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/27d06dc9-f1c9-429b-bbc3-3f4a97e3d5d2)
+
+Hier staat een klein overzicht van al onze CRUD requests.
+Bij het slot wordt een authenticatie gevraagd.
+
+# Docker, Docker-Compose en Okteto
+## Docker
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/142e357d-212e-4e99-ba2c-242b36b90493)
+Hier ziet u mijn opgebouwde Dockerfile hoe deze wordt opgebouwd
+
+
+## docker-compose
+Met docker-compose builden we onze image vanzelf vanuit Docker.
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/446653b1-a883-44b7-beab-cc6748e67e55)
+Hier zien we dat we de image r0695672/api-festival uit docker halen en deze hierna te builden.
+
+## Okteto
+eens de repository gelinkt is met github langs docker-compose kunnen we deze verbinden met een okteto cloud account
+![image](https://github.com/bervoetshannes/API-python/assets/47882529/cee3cf69-6a1d-46bb-a7d5-09bf2150d963)
+
+Hierboven ziet u mijn backend op okteto staan en kunnen we langs de cloud request maken.
