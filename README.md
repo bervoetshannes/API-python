@@ -26,7 +26,9 @@ De naam voor te weten hoe de locatie heet en de lat en lon voor de coördinatie 
 
 # GET Locatie
 
-Hier vragen we de locaties van de
+Hier vragen we de locaties voor de festivals
+![Uploading image.png…]()
+
 
 # POST Festival
 Bij het aanmaken van een festival hebben we 2 parameters: de naam van het festival en de locatie_id
